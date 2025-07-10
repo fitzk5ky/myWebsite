@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating a wordpress block</title>
+    <style>
+        .content-container {
+            font-family: monospace;
+            white-space: pre-wrap;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            word-break: break-word;
+            overflow-wrap: break-word;
+        }
+        @media (max-width: 800px) {
+            .content-container {
+                width: 90%;
+            }
+        }
+        @media (max-width: 500px) {
+            .content-container {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <p>Todays main objective was to understand how to create a block in WordPress. The site at my w2 was developed by a larger company of developers and they structured with WordPress build in a peculiar way. My task is to figure out the process (they also didn't create documentation for us).</p>
+        <p>First I began creating a block the way WordPress recommends <a href="https://developer.wordpress.org/block-editor/getting-started/tutorial/">here</a>. I created a local wp on my personal website with <a href="https://localwp.com/">local wp</a>. From there I followed the steps and after some time the block was created</p>
+        <p>Unfortunetly the codebase for my w2 is a different beast BUT I did figure it out and I created a block at 4:50pm. I spend all afternoon figuring out where the files are, what files should be edited, what files should be created/added. I got stuck with having to update node and npm a few times, not sure why. I had to deal with some errors in function.php which I think came about because I was running <code>npm run build</code> in the wrong folders.</p>
+        <p>Nonetheless, I feel accomplished with figuring it out. Tomorrow brings about a new beast of documenting what I did. I plan to take another stab creating a block from scratch again. I'm going to use the tutorial above from WordPress and see if I can cut down on time as well as errors</p>
+        <p>Before the day concludes I still have some React work to tap in to. I used Claude to put together 2 week bootcamp of React for me and Claude provided me a nice bootcamp and I have to do a code challenge for day 1. I also found out Codeacademy has a React course so I will work through a bit before shutting the studio down</p>
+    </div>
+</body>
+</html>
